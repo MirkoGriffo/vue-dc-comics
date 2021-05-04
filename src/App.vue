@@ -4,7 +4,8 @@
    <!-- Header -->
 <Header />
    <!-- Main -->
-
+<Topmain />
+<Middlemain />
    <!-- Footer -->
    
   </div>
@@ -12,19 +13,27 @@
 
 <script>
 import Header from "@/components/Header.vue";
+import Topmain from "@/components/Topmain.vue";
+import Middlemain from "@/components/Middlemain.vue";
 
 export default {
   name: 'App',
   components: {
-    Header
+    Header,
+    Topmain,
+    Middlemain,
   }
 }
 </script>
 
 <style lang="scss">
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 #app {
- width: 1500px;
-    margin: 0 auto;
+
   
  
 }

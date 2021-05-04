@@ -1,6 +1,7 @@
 <template>
 
 <nav>
+    <div class="container">
 <img src="../assets/img/dc-logo.png" alt="logo">
 
 <ul>
@@ -15,6 +16,7 @@
     <li><a href="#">news</a></li>
     <li><a href="#">shop</a></li>
 </ul>
+</div>
 </nav>
   
 </template>
@@ -29,10 +31,15 @@ name: "Header",
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.container {
+     width: 1500px;
+    margin: 0 auto;
+}
 nav {
-    height: 250px;
+    height: 150px;
     width: 100%;
-    
+    padding: 15px 0;
+     
     
 }
 
@@ -57,7 +64,7 @@ ul li {
     padding: 15px;
     display: inline-block;
     position: relative;
-    bottom: 100px;
+    bottom: 80px;
    
    
    
@@ -69,6 +76,6 @@ ul li a {
 }
 
 ul li a:hover {
-    color: blue;
+    color: #0282f9;
 }
 </style>
