@@ -1,34 +1,30 @@
 <template>
-  <div class="nero">
-<div class="container">
-    <h3>--> Content goes here</h3>
-</div>
+  <div class="jumbotron">
+    <div class="container"></div>
   </div>
-
-  
 </template>
 
 <script>
 export default {
-
-}
+  name: "Topmain",
+};
 </script>
 
-<style>
+<style scoped>
 .container {
-     width: 1500px;
-    margin: 0 auto;
+  width: 1500px;
+  margin: 0 auto;
 }
-.nero {
-    height: 150px;
-    width: 100%;
-    background-color: black;
-    
-   
+.jumbotron {
+  height: 400px;
+  width: 100%;
+  background-image: url("../assets/img/jumbotron.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
-.nero h3 {
-    color: #fff;
-    font-size: 35px;
-padding-top: 50px;
+.jumbotron h3 {
+  color: #fff;
+  font-size: 35px;
+  padding-top: 50px;
 }
 </style>

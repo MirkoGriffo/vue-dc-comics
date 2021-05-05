@@ -16,12 +16,11 @@
 
 <script>
 export default {
-
+    name: "Bottommain"
 }
 </script>
 
-<style>
-
+<style scoped>
 .blu {
     height: 170px;
     width: 100%;
@@ -38,12 +37,9 @@ export default {
     margin: 0 auto;
     
 }
-
 ul li {
 padding-left: 25px;
 }
-
-
 ul li,
 ul p {
     list-style: none;
@@ -60,7 +56,6 @@ ul li img {
     
     
     }
-
     ul li p {
         position: relative;
         bottom: 20px;

@@ -5,7 +5,8 @@
 <Header />
    <!-- Main -->
 <Topmain />
-<Middlemain />
+<Listafumetti />
+<Bottommain />
    <!-- Footer -->
    
   </div>
@@ -14,14 +15,17 @@
 <script>
 import Header from "@/components/Header.vue";
 import Topmain from "@/components/Topmain.vue";
-import Middlemain from "@/components/Middlemain.vue";
+import Listafumetti from "@/components/Listafumetti.vue";
+import Bottommain from "@/components/Bottommain.vue";
+
 
 export default {
   name: 'App',
   components: {
     Header,
     Topmain,
-    Middlemain,
+    Listafumetti,
+    Bottommain,
   }
 }
 </script>
