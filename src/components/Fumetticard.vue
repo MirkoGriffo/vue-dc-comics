@@ -18,7 +18,6 @@ export default {
 }
 .box img {
   height: 80%;
-  padding: 10px;
 }
 
 .box p {

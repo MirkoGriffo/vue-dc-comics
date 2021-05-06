@@ -1,10 +1,12 @@
 <template>
   <section>
-    <Fumetticard
-      v-for="(fumetto, index) in fumetti"
-      :key="index"
-      :details="fumetto"
-    />
+    <div class="container">
+      <Fumetticard
+        v-for="(fumetto, index) in fumetti"
+        :key="index"
+        :details="fumetto"
+      />
+    </div>
   </section>
 </template>
 
@@ -117,6 +119,13 @@ section {
   background-color: black;
   display: flex;
   text-align: center;
+}
+.container {
+  width: 1500px;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
   flex-wrap: wrap;
+  padding: 35px;
 }
 </style>
